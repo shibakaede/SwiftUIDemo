@@ -16,6 +16,8 @@ struct ContentView: View {
             ForthView()
             fifthView()
             SixthView()
+            
+            //Test
         }
         .tabViewStyle(.page)
         .indexViewStyle(.page(backgroundDisplayMode: .automatic))
