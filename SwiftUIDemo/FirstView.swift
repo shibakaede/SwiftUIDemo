@@ -142,7 +142,7 @@ struct FirstView: View {
                 .shadow(radius: 3)
                 .padding(.horizontal)
                 .padding(.bottom)
-
+                
                 
                 VStack(alignment: .leading, spacing: 6) {
                     //MARK: TextEditor
@@ -153,7 +153,7 @@ struct FirstView: View {
                         .cornerRadius(15)
                         .shadow(radius: 3)
                         .padding(.horizontal)
-
+                    
                     
                     //MARK: TextEditor Code Button
                     Button("\(Image(systemName: "info.circle")) 显示代码", action: {

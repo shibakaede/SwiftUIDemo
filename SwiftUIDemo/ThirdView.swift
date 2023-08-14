@@ -9,67 +9,69 @@ import SwiftUI
 
 struct ThirdView: View {
     var body: some View {
-        VStack {
-            Text("各种View视图")
-                .font(.title2)
-                .fontWeight(.bold)
-            
-            Divider().padding()
-            
-            Group {
-                VStack {
-                    RoundedRectangle(cornerRadius: 25, style: .continuous)
-                    RoundedRectangle(cornerRadius: 25, style: .continuous)
-                }
-                .opacity(0.7)
-                .foregroundColor(.yellow)
-                .frame(width: 100, height: 200)
-                .padding()
-                .padding(.bottom)
-                .background(Color.white)
-                .cornerRadius(25)
-                .shadow(radius: 10)
+        ScrollView {
+            VStack {
+                Text("各种View视图")
+                    .font(.title2)
+                    .fontWeight(.bold)
                 
-                Text("VStack")
-                    .font(.headline)
-            }
-            
-            Group {
-                HStack {
-                    RoundedRectangle(cornerRadius: 25, style: .continuous)
-                    RoundedRectangle(cornerRadius: 25, style: .continuous)
-                }
-                .opacity(0.7)
-                .foregroundColor(.blue)
-                .frame(width: 200, height: 100)
-                .padding()
-                .padding(.bottom)
-                .background(Color.white)
-                .cornerRadius(25)
-                .shadow(radius: 10)
+                Divider().padding()
                 
-                Text("HStack")
-                    .font(.headline)
-            }
-            
-            Group {
-                ZStack {
-                    RoundedRectangle(cornerRadius: 25, style: .continuous)
-                        .offset(CGPoint(x: -5, y: -3))
-                    RoundedRectangle(cornerRadius: 25, style: .continuous)
-                        .offset(CGPoint(x: 5, y: 16))
+                Group {
+                    VStack {
+                        RoundedRectangle(cornerRadius: 25, style: .continuous)
+                        RoundedRectangle(cornerRadius: 25, style: .continuous)
+                    }
+                    .opacity(0.7)
+                    .foregroundColor(.yellow)
+                    .frame(width: 100, height: 200)
+                    .padding()
+                    .padding(.bottom)
+                    .background(Color.white)
+                    .cornerRadius(25)
+                    .shadow(radius: 10)
+                    
+                    Text("VStack")
+                        .font(.headline)
                 }
-                .opacity(0.7)
-                .foregroundColor(.red)
-                .frame(width: 200, height: 100)
-                .padding()
-                .padding(.bottom)
-                .background(Color.white)
-                .cornerRadius(25)
-                .shadow(radius: 10)
                 
-                Text("ZStack")
-                    .font(.headline)
+                Group {
+                    HStack {
+                        RoundedRectangle(cornerRadius: 25, style: .continuous)
+                        RoundedRectangle(cornerRadius: 25, style: .continuous)
+                    }
+                    .opacity(0.7)
+                    .foregroundColor(.blue)
+                    .frame(width: 200, height: 100)
+                    .padding()
+                    .padding(.bottom)
+                    .background(Color.white)
+                    .cornerRadius(25)
+                    .shadow(radius: 10)
+                    
+                    Text("HStack")
+                        .font(.headline)
+                }
+                
+                Group {
+                    ZStack {
+                        RoundedRectangle(cornerRadius: 25, style: .continuous)
+                            .offset(CGPoint(x: -5, y: -3))
+                        RoundedRectangle(cornerRadius: 25, style: .continuous)
+                            .offset(CGPoint(x: 5, y: 16))
+                    }
+                    .opacity(0.7)
+                    .foregroundColor(.red)
+                    .frame(width: 200, height: 100)
+                    .padding()
+                    .padding(.bottom)
+                    .background(Color.white)
+                    .cornerRadius(25)
+                    .shadow(radius: 10)
+                    
+                    Text("ZStack")
+                        .font(.headline)
+                }
             }
         }
     }
