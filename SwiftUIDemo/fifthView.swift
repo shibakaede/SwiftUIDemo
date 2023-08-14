@@ -8,52 +8,64 @@
 import SwiftUI
 
 struct fifthView: View {
-    let hapticImpact = UIImpactFeedbackGenerator(style: .heavy)
     @State private var toggleIsPresented = false
     @State private var buttonIsPresented = false
     @State private var pickerIsPresented = false
     @State private var sliderIsPresented = false
     @State private var stepperIsPresented = false
-    let aLongText = """
-Picker(titleString, selection: $pickerValue)
-{ ForEach(0..<pickerOptions.count)
-{ index in Text(pickerOptions[index]).tag(index)}
-}.pickerStyle(SegmentedPickerStyle())
-"""
+    @State private var datepickerIsPresented = false
+
+    let hapticImpact = UIImpactFeedbackGenerator(style: .heavy)
+    
     @State var toggleValue = true
+    
     @State var pickerValue = 0
     var pickerOptions = ["早餐", "午餐", "晚餐"]
+    
     @State var sliderValue = 0.0
+    
     @State var stepperValue = 0
+    
     @State var selectedDate = Date()
     var dateRange: ClosedRange<Date> {
-        let min = Calendar.current.date(byAdding: .day, value: -100, to: Date())!
-        let max = Calendar.current.date(byAdding: .day, value: 100, to: Date())!
+        let min = Calendar.current.date(byAdding: .year, value: -100, to: Date())!
+        let max = Calendar.current.date(byAdding: .year, value: 100, to: Date())!
         return min...max
     }
     
     var body: some View {
-        ScrollView {
+        VStack {
+            Text("各种控制视图")
+                .font(.title2)
+                .fontWeight(.bold)
+            
             HStack {
                 //MARK: Toggle
                 VStack(alignment: .leading, spacing: 6){
                     VStack(alignment: .leading) {
                         Text("Toggle")
                             .font(.headline)
-                            .foregroundColor(.black)
                         
                         Toggle("AutoLogin", isOn: $toggleValue)
                             .toggleStyle(SwitchToggleStyle(tint: .green))
-                            .foregroundColor(.black)
                         
-                        Button("显示代码", action: {
+                        //MARK: Toggle Code Button
+                        Button("\(Image(systemName: "info.circle")) 显示代码", action: {
                             toggleIsPresented = true
                         })
                         .font(.footnote)
-                        .alert(isPresented: $toggleIsPresented) {
-                            Alert(title: Text("Toggle"),
-                                  message: Text("Toggle(titleString, isOn: $toggleValue)"),
-                                  dismissButton: .default(Text("OK")))
+                        .sheet(isPresented: $toggleIsPresented) {
+                            VStack {
+                                Image("toggle1")
+                                    .resizable()
+                                    .scaledToFit()
+                                Image("toggle2")
+                                    .resizable()
+                                    .scaledToFit()
+                                Button("\(Image(systemName: "xmark.circle")) 关闭") {
+                                    toggleIsPresented.toggle()
+                                }
+                            }
                         }
                     }
                     .cardStyle()
@@ -63,7 +75,7 @@ Picker(titleString, selection: $pickerValue)
                 VStack(alignment: .leading, spacing: 6) {
                     Text("Button")
                         .font(.headline)
-                        .foregroundColor(.black)
+
                     Button {
                         //仅示例，无功能
                         hapticImpact.impactOccurred()
@@ -75,17 +87,23 @@ Picker(titleString, selection: $pickerValue)
                     }
                     .foregroundColor(.white)
                     .padding()
-                    .background(Color.black)
+                    .background(Color.blue)
                     .cornerRadius(15)
                     
-                    Button("显示代码", action: {
+                    //MARK: Button Code Button
+                    Button("\(Image(systemName: "info.circle")) 显示代码", action: {
                         buttonIsPresented = true
                     })
                     .font(.footnote)
-                    .alert(isPresented: $buttonIsPresented) {
-                        Alert(title: Text("Button"),
-                              message: Text("Button(action: { code }, label: { code })"),
-                              dismissButton: .default(Text("OK")))
+                    .sheet(isPresented: $buttonIsPresented) {
+                        VStack {
+                            Image("button")
+                                .resizable()
+                                .scaledToFit()
+                            Button("\(Image(systemName: "xmark.circle")) 关闭") {
+                                buttonIsPresented.toggle()
+                            }
+                        }
                     }
                 }
                 .cardStyle()
@@ -95,7 +113,6 @@ Picker(titleString, selection: $pickerValue)
             VStack(alignment: .leading, spacing: 6){
                 Text("Picker")
                     .font(.headline)
-                    .foregroundColor(.black)
                 
                 Picker("Picker", selection: $pickerValue) {
                     ForEach(0..<pickerOptions.count) { index in
@@ -103,14 +120,23 @@ Picker(titleString, selection: $pickerValue)
                     }
                 }.pickerStyle(SegmentedPickerStyle())
                 
-                Button("显示代码", action: {
+                //MARK: Picker Code Button
+                Button("\(Image(systemName: "info.circle")) 显示代码", action: {
                     pickerIsPresented = true
                 })
                 .font(.footnote)
-                .alert(isPresented: $pickerIsPresented) {
-                    Alert(title: Text("Picker"),
-                          message: Text(aLongText),
-                          dismissButton: .default(Text("OK")))
+                .sheet(isPresented: $pickerIsPresented) {
+                    VStack {
+                        Image("picker1")
+                            .resizable()
+                            .scaledToFit()
+                        Image("picker2")
+                            .resizable()
+                            .scaledToFit()
+                        Button("\(Image(systemName: "xmark.circle")) 关闭") {
+                            pickerIsPresented.toggle()
+                        }
+                    }
                 }
             }
             .cardStyle()
@@ -119,21 +145,30 @@ Picker(titleString, selection: $pickerValue)
             VStack(alignment: .leading, spacing: 6) {
                 Text("Slider")
                     .font(.headline)
-                    .foregroundColor(.black)
+
                 HStack {
                     Image(systemName: "moon")
                     Slider(value: $sliderValue, in: -5...5, step: 0.5)
                     Image(systemName: "moon.fill")
                 }
                 
-                Button("显示代码", action: {
+                //MARK: Slider Code Button
+                Button("\(Image(systemName: "info.circle")) 显示代码", action: {
                     sliderIsPresented = true
                 })
                 .font(.footnote)
-                .alert(isPresented: $sliderIsPresented) {
-                    Alert(title: Text("Slider"),
-                          message: Text("Slider(value: $sliderValue, in: _ ,step: _ )"),
-                          dismissButton: .default(Text("OK")))
+                .sheet(isPresented: $sliderIsPresented) {
+                    VStack {
+                        Image("slider1")
+                            .resizable()
+                            .scaledToFit()
+                        Image("slider2")
+                            .resizable()
+                            .scaledToFit()
+                        Button("\(Image(systemName: "xmark.circle")) 关闭") {
+                            sliderIsPresented.toggle()
+                        }
+                    }
                 }
             }
             .cardStyle()
@@ -142,18 +177,28 @@ Picker(titleString, selection: $pickerValue)
             VStack(alignment: .leading, spacing: 6){
                 Text("Stepper")
                     .font(.headline)
-                    .foregroundColor(.black)
+
                 Stepper(value: $stepperValue, in: -10...10) {
                     Text("当前数值：\(stepperValue)")
                 }
-                Button("显示代码", action: {
+                
+                //MARK: Stepper Code Button
+                Button("\(Image(systemName: "info.circle")) 显示代码", action: {
                     stepperIsPresented = true
                 })
                 .font(.footnote)
-                .alert(isPresented: $stepperIsPresented) {
-                    Alert(title: Text("Stepper"),
-                          message: Text("Stepper(titleString, value: $stepperValue, in: range)"),
-                          dismissButton: .default(Text("OK")))
+                .sheet(isPresented: $stepperIsPresented) {
+                    VStack {
+                        Image("stepper1")
+                            .resizable()
+                            .scaledToFit()
+                        Image("stepper")
+                            .resizable()
+                            .scaledToFit()
+                        Button("\(Image(systemName: "xmark.circle")) 关闭") {
+                            stepperIsPresented.toggle()
+                        }
+                    }
                 }
             }
             .cardStyle()
@@ -162,10 +207,29 @@ Picker(titleString, selection: $pickerValue)
             VStack(alignment: .leading, spacing: 6) {
                 Text("DatePicker")
                     .font(.headline)
-                    .foregroundColor(.black)
+
                 DatePicker(selection: $selectedDate, in: dateRange, displayedComponents: [.hourAndMinute, .date], label: {
                     Text("截止日期")
                 })
+                
+                //MARK: DatePicker Code Button
+                Button("\(Image(systemName: "info.circle")) 显示代码", action: {
+                    datepickerIsPresented = true
+                })
+                .font(.footnote)
+                .sheet(isPresented: $datepickerIsPresented) {
+                    VStack {
+                        Image("datepicker1")
+                            .resizable()
+                            .scaledToFit()
+                        Image("datepicker2")
+                            .resizable()
+                            .scaledToFit()
+                        Button("\(Image(systemName: "xmark.circle")) 关闭") {
+                            datepickerIsPresented.toggle()
+                        }
+                    }
+                }
             }
             .cardStyle()
         }

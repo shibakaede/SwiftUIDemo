@@ -12,10 +12,8 @@ struct SecondView: View {
         
         VStack {
             Text("图片导入+文字叠加")
-                .font(.title)
+                .font(.title2)
                 .fontWeight(.bold)
-            
-            Divider().padding()
             
             ZStack {
                 Image("00029-1797116484")

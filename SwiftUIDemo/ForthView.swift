@@ -11,7 +11,7 @@ struct ForthView: View {
     var body: some View {
         VStack {
             Text("各种图形")
-                .font(.title)
+                .font(.title2)
                 .fontWeight(.bold)
             
             Divider().padding()

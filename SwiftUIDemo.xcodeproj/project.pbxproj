@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		EA1D75632A88C72400BF8A38 /* Function.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA1D75622A88C72400BF8A38 /* Function.swift */; };
+		EA1D75652A88EFF700BF8A38 /* SixthView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA1D75642A88EFF700BF8A38 /* SixthView.swift */; };
 		EACF2D3D2A888D3D00ABF2D0 /* fifthView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EACF2D3C2A888D3D00ABF2D0 /* fifthView.swift */; };
 		EAE396BC2A8764B200E23A28 /* SwiftUIDemoApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = EAE396BB2A8764B200E23A28 /* SwiftUIDemoApp.swift */; };
 		EAE396BE2A8764B200E23A28 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EAE396BD2A8764B200E23A28 /* ContentView.swift */; };
@@ -21,6 +22,7 @@
 
 /* Begin PBXFileReference section */
 		EA1D75622A88C72400BF8A38 /* Function.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Function.swift; sourceTree = "<group>"; };
+		EA1D75642A88EFF700BF8A38 /* SixthView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SixthView.swift; sourceTree = "<group>"; };
 		EACF2D3C2A888D3D00ABF2D0 /* fifthView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = fifthView.swift; sourceTree = "<group>"; };
 		EAE396B82A8764B200E23A28 /* SwiftUIDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SwiftUIDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		EAE396BB2A8764B200E23A28 /* SwiftUIDemoApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUIDemoApp.swift; sourceTree = "<group>"; };
@@ -70,6 +72,7 @@
 				EAE396CD2A8779AE00E23A28 /* ThirdView.swift */,
 				EAE396CF2A8779F100E23A28 /* ForthView.swift */,
 				EACF2D3C2A888D3D00ABF2D0 /* fifthView.swift */,
+				EA1D75642A88EFF700BF8A38 /* SixthView.swift */,
 				EA1D75622A88C72400BF8A38 /* Function.swift */,
 				EAE396BF2A8764B200E23A28 /* Assets.xcassets */,
 				EAE396C12A8764B200E23A28 /* Preview Content */,
@@ -157,6 +160,7 @@
 			files = (
 				EAE396BE2A8764B200E23A28 /* ContentView.swift in Sources */,
 				EAE396CE2A8779AE00E23A28 /* ThirdView.swift in Sources */,
+				EA1D75652A88EFF700BF8A38 /* SixthView.swift in Sources */,
 				EAE396D02A8779F100E23A28 /* ForthView.swift in Sources */,
 				EAE396CA2A8775BE00E23A28 /* FirstView.swift in Sources */,
 				EAE396CC2A87795800E23A28 /* SecondView.swift in Sources */,

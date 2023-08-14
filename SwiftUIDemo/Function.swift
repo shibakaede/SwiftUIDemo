@@ -12,7 +12,7 @@ struct CardModifier: ViewModifier {
         content
             .frame(height: 88)
             .padding()
-            .background(.white)
+            .background(Color("DarkMode"))
             .cornerRadius(15)
             .shadow(radius: 3)
             .padding(.horizontal)

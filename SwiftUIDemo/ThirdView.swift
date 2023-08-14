@@ -11,7 +11,7 @@ struct ThirdView: View {
     var body: some View {
         VStack {
             Text("各种View视图")
-                .font(.title)
+                .font(.title2)
                 .fontWeight(.bold)
             
             Divider().padding()
