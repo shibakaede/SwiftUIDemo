@@ -20,7 +20,7 @@ struct HomeView: View {
                     Image(systemName: "scroll")
                     Text("ScrollView")
                 }
-            Text("NavigationView")
+            Navigation()
                 .tabItem {
                     Image(systemName: "globe")
                     Text("NavigationView")
