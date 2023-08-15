@@ -19,7 +19,7 @@ struct MultiViews: View {
             HomeView()
         }
         .tabViewStyle(.page)
-        .indexViewStyle(.page(backgroundDisplayMode: .never))
+        .indexViewStyle(.page(backgroundDisplayMode: .automatic))
     }
 }
 

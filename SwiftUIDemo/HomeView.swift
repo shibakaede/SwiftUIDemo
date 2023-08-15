@@ -15,7 +15,7 @@ struct HomeView: View {
                     Image(systemName: "book")
                     Text("TabView")
                 }
-            Text("ScrollView")
+            Scroll()
                 .tabItem {
                     Image(systemName: "scroll")
                     Text("ScrollView")

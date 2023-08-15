@@ -19,6 +19,7 @@
 		EAE396CE2A8779AE00E23A28 /* ThirdView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EAE396CD2A8779AE00E23A28 /* ThirdView.swift */; };
 		EAE396D02A8779F100E23A28 /* ForthView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EAE396CF2A8779F100E23A28 /* ForthView.swift */; };
 		EAEE3EAB2A8B3CFC00FD685F /* MultiViews.swift in Sources */ = {isa = PBXBuildFile; fileRef = EAEE3EAA2A8B3CFC00FD685F /* MultiViews.swift */; };
+		EAEE3EAF2A8B3EF700FD685F /* Scroll.swift in Sources */ = {isa = PBXBuildFile; fileRef = EAEE3EAE2A8B3EF700FD685F /* Scroll.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -35,6 +36,7 @@
 		EAE396CD2A8779AE00E23A28 /* ThirdView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ThirdView.swift; sourceTree = "<group>"; };
 		EAE396CF2A8779F100E23A28 /* ForthView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ForthView.swift; sourceTree = "<group>"; };
 		EAEE3EAA2A8B3CFC00FD685F /* MultiViews.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MultiViews.swift; sourceTree = "<group>"; };
+		EAEE3EAE2A8B3EF700FD685F /* Scroll.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Scroll.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -77,6 +79,7 @@
 				EACF2D3C2A888D3D00ABF2D0 /* fifthView.swift */,
 				EA1D75642A88EFF700BF8A38 /* SixthView.swift */,
 				EA1D75622A88C72400BF8A38 /* Function.swift */,
+				EAEE3EAE2A8B3EF700FD685F /* Scroll.swift */,
 				EAE396BF2A8764B200E23A28 /* Assets.xcassets */,
 				EAE396C12A8764B200E23A28 /* Preview Content */,
 			);
@@ -165,6 +168,7 @@
 				EA1D75652A88EFF700BF8A38 /* SixthView.swift in Sources */,
 				EAE396D02A8779F100E23A28 /* ForthView.swift in Sources */,
 				EAE396CA2A8775BE00E23A28 /* FirstView.swift in Sources */,
+				EAEE3EAF2A8B3EF700FD685F /* Scroll.swift in Sources */,
 				EAEE3EAB2A8B3CFC00FD685F /* MultiViews.swift in Sources */,
 				EAE396CC2A87795800E23A28 /* SecondView.swift in Sources */,
 				EAE396BC2A8764B200E23A28 /* SwiftUIDemoApp.swift in Sources */,
