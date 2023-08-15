@@ -1,13 +1,13 @@
 //
-//  ContentView.swift
+//  MultiViews.swift
 //  SwiftUIDemo
 //
-//  Created by Alan Chou on 2023/8/12.
+//  Created by Alan Chou on 2023/8/15.
 //
 
 import SwiftUI
 
-struct ContentView: View {
+struct MultiViews: View {
     var body: some View {
         TabView {
             FirstView()
@@ -16,14 +16,15 @@ struct ContentView: View {
             ForthView()
             fifthView()
             SixthView()
+            HomeView()
         }
         .tabViewStyle(.page)
-        .indexViewStyle(.page(backgroundDisplayMode: .automatic))
+        .indexViewStyle(.page(backgroundDisplayMode: .never))
     }
 }
 
-struct ContentView_Previews: PreviewProvider {
+struct MultiViews_Previews: PreviewProvider {
     static var previews: some View {
-        ContentView()
+        MultiViews()
     }
 }
