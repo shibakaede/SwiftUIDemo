@@ -8,8 +8,9 @@
 import SwiftUI
 
 struct SecondView: View {
+    @State private var imageIsPresented = false
+    
     var body: some View {
-        
         VStack {
             Text("图片导入+文字叠加")
                 .font(.title2)
@@ -27,9 +28,21 @@ struct SecondView: View {
                     .fontWeight(.bold)
                     .foregroundColor(.white)
             }
-            Text("Image(String) / Image(systemName:String)")
-                .font(.footnote)
-                .foregroundColor(.gray)
+            
+            Button("\(Image(systemName: "info.circle")) 显示代码", action: {
+                imageIsPresented = true
+            })
+            .font(.footnote)
+            .sheet(isPresented: $imageIsPresented) {
+                VStack {
+                    Image("image")
+                        .resizable()
+                        .scaledToFit()
+                    Button("\(Image(systemName: "xmark.circle")) 关闭") {
+                        imageIsPresented.toggle()
+                    }
+                }
+            }
         }
     }
 }
