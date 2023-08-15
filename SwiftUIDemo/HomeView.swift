@@ -25,7 +25,7 @@ struct HomeView: View {
                     Image(systemName: "globe")
                     Text("NavigationView")
                 }
-            Text("Modal")
+            Modal()
                 .tabItem {
                     Image(systemName: "arrow.up.to.line.compact")
                     Text("Modal")
