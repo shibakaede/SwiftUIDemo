@@ -22,6 +22,7 @@
 		EAEE3EAF2A8B3EF700FD685F /* Scroll.swift in Sources */ = {isa = PBXBuildFile; fileRef = EAEE3EAE2A8B3EF700FD685F /* Scroll.swift */; };
 		EAEE3EB12A8B5ECC00FD685F /* Navigation.swift in Sources */ = {isa = PBXBuildFile; fileRef = EAEE3EB02A8B5ECC00FD685F /* Navigation.swift */; };
 		EAEE3EB32A8B6D2300FD685F /* Modal.swift in Sources */ = {isa = PBXBuildFile; fileRef = EAEE3EB22A8B6D2300FD685F /* Modal.swift */; };
+		EAEE3EB52A8B7C3300FD685F /* Alert.swift in Sources */ = {isa = PBXBuildFile; fileRef = EAEE3EB42A8B7C3300FD685F /* Alert.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -41,6 +42,7 @@
 		EAEE3EAE2A8B3EF700FD685F /* Scroll.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Scroll.swift; sourceTree = "<group>"; };
 		EAEE3EB02A8B5ECC00FD685F /* Navigation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Navigation.swift; sourceTree = "<group>"; };
 		EAEE3EB22A8B6D2300FD685F /* Modal.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Modal.swift; sourceTree = "<group>"; };
+		EAEE3EB42A8B7C3300FD685F /* Alert.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Alert.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -86,6 +88,7 @@
 				EAEE3EAE2A8B3EF700FD685F /* Scroll.swift */,
 				EAEE3EB02A8B5ECC00FD685F /* Navigation.swift */,
 				EAEE3EB22A8B6D2300FD685F /* Modal.swift */,
+				EAEE3EB42A8B7C3300FD685F /* Alert.swift */,
 				EAE396BF2A8764B200E23A28 /* Assets.xcassets */,
 				EAE396C12A8764B200E23A28 /* Preview Content */,
 			);
@@ -176,6 +179,7 @@
 				EAEE3EB12A8B5ECC00FD685F /* Navigation.swift in Sources */,
 				EAE396CA2A8775BE00E23A28 /* FirstView.swift in Sources */,
 				EAEE3EAF2A8B3EF700FD685F /* Scroll.swift in Sources */,
+				EAEE3EB52A8B7C3300FD685F /* Alert.swift in Sources */,
 				EAEE3EAB2A8B3CFC00FD685F /* MultiViews.swift in Sources */,
 				EAE396CC2A87795800E23A28 /* SecondView.swift in Sources */,
 				EAE396BC2A8764B200E23A28 /* SwiftUIDemoApp.swift in Sources */,
@@ -309,7 +313,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = df53108;
+				CURRENT_PROJECT_VERSION = a97be18;
 				DEVELOPMENT_ASSET_PATHS = "\"SwiftUIDemo/Preview Content\"";
 				DEVELOPMENT_TEAM = DWCVC3AL79;
 				ENABLE_PREVIEWS = YES;
@@ -323,7 +327,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				MARKETING_VERSION = 1.01;
+				MARKETING_VERSION = 1.1;
 				PRODUCT_BUNDLE_IDENTIFIER = pub.beautylife.SwiftUIDemo;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
@@ -338,7 +342,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = df53108;
+				CURRENT_PROJECT_VERSION = a97be18;
 				DEVELOPMENT_ASSET_PATHS = "\"SwiftUIDemo/Preview Content\"";
 				DEVELOPMENT_TEAM = DWCVC3AL79;
 				ENABLE_PREVIEWS = YES;
@@ -352,7 +356,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				MARKETING_VERSION = 1.01;
+				MARKETING_VERSION = 1.1;
 				PRODUCT_BUNDLE_IDENTIFIER = pub.beautylife.SwiftUIDemo;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;

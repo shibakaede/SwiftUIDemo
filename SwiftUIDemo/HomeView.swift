@@ -30,7 +30,7 @@ struct HomeView: View {
                     Image(systemName: "arrow.up.to.line.compact")
                     Text("Modal")
                 }
-            Text("Alert")
+            Alert()
                 .tabItem {
                     Image(systemName: "exclamationmark.triangle")
                     Text("Alert")
