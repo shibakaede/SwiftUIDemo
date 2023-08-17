@@ -27,6 +27,7 @@
 		EAF3C3432A8E153A00D78F7C /* GridScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = EAF3C3422A8E153A00D78F7C /* GridScreen.swift */; };
 		EAF3C3472A8E27C200D78F7C /* ForEachScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = EAF3C3462A8E27C200D78F7C /* ForEachScreen.swift */; };
 		EAF3C3492A8E3BA300D78F7C /* GroupBoxScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = EAF3C3482A8E3BA300D78F7C /* GroupBoxScreen.swift */; };
+		EAF3C34B2A8E3F3A00D78F7C /* FormScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = EAF3C34A2A8E3F3A00D78F7C /* FormScreen.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -51,6 +52,7 @@
 		EAF3C3422A8E153A00D78F7C /* GridScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GridScreen.swift; sourceTree = "<group>"; };
 		EAF3C3462A8E27C200D78F7C /* ForEachScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ForEachScreen.swift; sourceTree = "<group>"; };
 		EAF3C3482A8E3BA300D78F7C /* GroupBoxScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GroupBoxScreen.swift; sourceTree = "<group>"; };
+		EAF3C34A2A8E3F3A00D78F7C /* FormScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FormScreen.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,6 +103,7 @@
 				EAF3C3422A8E153A00D78F7C /* GridScreen.swift */,
 				EAF3C3462A8E27C200D78F7C /* ForEachScreen.swift */,
 				EAF3C3482A8E3BA300D78F7C /* GroupBoxScreen.swift */,
+				EAF3C34A2A8E3F3A00D78F7C /* FormScreen.swift */,
 				EAE396BF2A8764B200E23A28 /* Assets.xcassets */,
 				EAE396C12A8764B200E23A28 /* Preview Content */,
 			);
@@ -185,6 +188,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EAF3C34B2A8E3F3A00D78F7C /* FormScreen.swift in Sources */,
 				EAE396CE2A8779AE00E23A28 /* LayoutScreen.swift in Sources */,
 				EAF3C3432A8E153A00D78F7C /* GridScreen.swift in Sources */,
 				EA1D75652A88EFF700BF8A38 /* TabScreen.swift in Sources */,

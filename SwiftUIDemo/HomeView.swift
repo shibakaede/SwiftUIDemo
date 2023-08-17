@@ -55,7 +55,7 @@ struct HomeView: View {
                     Image(systemName: "arrow.triangle.capsulepath")
                     Text("ForEach 和 GroupBox")
                 }
-            Text("Form")
+            FormScreen()
                 .tabItem {
                     Image(systemName: "list.bullet")
                     Text("Form")

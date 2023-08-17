@@ -71,7 +71,7 @@ struct Modal: View {
 
                 //MARK: ConfirmationDialog Code Button
                 Button("\(Image(systemName: "info.circle")) 显示代码", action: {
-                    actionCodeIsPresented = true
+                    actionCodeIsPresented.toggle()
                 })
                 .font(.footnote)
                 .sheet(isPresented: $actionCodeIsPresented) {
