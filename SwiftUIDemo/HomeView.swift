@@ -45,6 +45,11 @@ struct HomeView: View {
                     Image(systemName: "list.clipboard")
                     Text("List")
                 }
+            GridScreen()
+                .tabItem {
+                    Image(systemName: "square.grid.2x2")
+                    Text("Grid")
+                }
         }
     }
 }

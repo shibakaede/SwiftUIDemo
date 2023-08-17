@@ -17,18 +17,25 @@ struct ImageScreen: View {
                     .font(.title2)
                     .fontWeight(.bold)
                 
-                ZStack {
-                    Image("00029-1797116484")
-                        .resizable()
-                        .scaledToFit()
-                        .padding()
-                        .frame(width: 360)
-                        .shadow(radius: 10)
-                    Text("美丽外表，善良心灵")
-                        .font(.body)
-                        .fontWeight(.bold)
-                        .foregroundColor(.white)
-                }
+                    Group {
+                        Image("00029-1797116484")
+                            .resizable()
+                            .scaledToFit()
+                            .frame(width: 400, height: 600)
+                            .overlay (
+                                HStack {
+                                    Spacer()
+                                    Text("美丽外表，善良心灵")
+                                        .font(.body)
+                                        .fontWeight(.bold)
+                                    Spacer()
+                                }
+                                .padding()
+                                .foregroundColor(.white)
+                                .background(Color.black.opacity(0.5)), alignment: .bottom)
+                    }
+                    .cornerRadius(15)
+                        
                 
                 Button("\(Image(systemName: "info.circle")) 显示代码", action: {
                     imageIsPresented = true

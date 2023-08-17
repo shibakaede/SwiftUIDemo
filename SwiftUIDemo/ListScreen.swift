@@ -34,7 +34,7 @@ struct ListScreen: View {
             .font(.footnote)
             .sheet(isPresented: $listIsPresented) {
                 VStack {
-                    Image("alert")
+                    Image("list")
                         .resizable()
                         .scaledToFit()
                     Button("\(Image(systemName: "xmark.circle")) 关闭") {
