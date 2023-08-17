@@ -50,6 +50,16 @@ struct HomeView: View {
                     Image(systemName: "square.grid.2x2")
                     Text("Grid")
                 }
+            ForEachScreen()
+                .tabItem {
+                    Image(systemName: "arrow.triangle.capsulepath")
+                    Text("ForEach 和 GroupBox")
+                }
+            Text("Form")
+                .tabItem {
+                    Image(systemName: "list.bullet")
+                    Text("Form")
+                }
         }
     }
 }

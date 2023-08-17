@@ -25,6 +25,8 @@
 		EAF3C33F2A8DFA6900D78F7C /* NormalViews.swift in Sources */ = {isa = PBXBuildFile; fileRef = EAF3C33E2A8DFA6900D78F7C /* NormalViews.swift */; };
 		EAF3C3412A8E0AF300D78F7C /* ListScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = EAF3C3402A8E0AF300D78F7C /* ListScreen.swift */; };
 		EAF3C3432A8E153A00D78F7C /* GridScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = EAF3C3422A8E153A00D78F7C /* GridScreen.swift */; };
+		EAF3C3472A8E27C200D78F7C /* ForEachScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = EAF3C3462A8E27C200D78F7C /* ForEachScreen.swift */; };
+		EAF3C3492A8E3BA300D78F7C /* GroupBoxScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = EAF3C3482A8E3BA300D78F7C /* GroupBoxScreen.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -47,6 +49,8 @@
 		EAF3C33E2A8DFA6900D78F7C /* NormalViews.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NormalViews.swift; sourceTree = "<group>"; };
 		EAF3C3402A8E0AF300D78F7C /* ListScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListScreen.swift; sourceTree = "<group>"; };
 		EAF3C3422A8E153A00D78F7C /* GridScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GridScreen.swift; sourceTree = "<group>"; };
+		EAF3C3462A8E27C200D78F7C /* ForEachScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ForEachScreen.swift; sourceTree = "<group>"; };
+		EAF3C3482A8E3BA300D78F7C /* GroupBoxScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GroupBoxScreen.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -95,6 +99,8 @@
 				EAEE3EB42A8B7C3300FD685F /* AlertScreen.swift */,
 				EAF3C3402A8E0AF300D78F7C /* ListScreen.swift */,
 				EAF3C3422A8E153A00D78F7C /* GridScreen.swift */,
+				EAF3C3462A8E27C200D78F7C /* ForEachScreen.swift */,
+				EAF3C3482A8E3BA300D78F7C /* GroupBoxScreen.swift */,
 				EAE396BF2A8764B200E23A28 /* Assets.xcassets */,
 				EAE396C12A8764B200E23A28 /* Preview Content */,
 			);
@@ -184,6 +190,7 @@
 				EA1D75652A88EFF700BF8A38 /* TabScreen.swift in Sources */,
 				EAE396D02A8779F100E23A28 /* ShapeScreen.swift in Sources */,
 				EAEE3EB12A8B5ECC00FD685F /* Navigation.swift in Sources */,
+				EAF3C3472A8E27C200D78F7C /* ForEachScreen.swift in Sources */,
 				EAE396CA2A8775BE00E23A28 /* TextScreen.swift in Sources */,
 				EAEE3EAF2A8B3EF700FD685F /* Scroll.swift in Sources */,
 				EAEE3EB52A8B7C3300FD685F /* AlertScreen.swift in Sources */,
@@ -195,6 +202,7 @@
 				EA5973282A8B32D200FE999A /* HomeView.swift in Sources */,
 				EA1D75632A88C72400BF8A38 /* Function.swift in Sources */,
 				EAEE3EB32A8B6D2300FD685F /* Modal.swift in Sources */,
+				EAF3C3492A8E3BA300D78F7C /* GroupBoxScreen.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

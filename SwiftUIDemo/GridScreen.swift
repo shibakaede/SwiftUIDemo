@@ -7,6 +7,23 @@
 
 import SwiftUI
 
+private struct GridPics: Identifiable{
+    let name: String
+    let id = UUID()
+}
+
+private var pics = [
+GridPics(name: "00020-854136227"),
+GridPics(name: "00021-854136228"),
+GridPics(name: "00022-854136229"),
+GridPics(name: "00020-2664957101"),
+GridPics(name: "00021-2664957102"),
+GridPics(name: "00022-2664957103"),
+GridPics(name: "00027-1797116482"),
+GridPics(name: "00028-1797116483"),
+GridPics(name: "00029-1797116484 1"),
+]
+
 struct GridScreen: View {
     @State private var gridIsPresented = false
     
@@ -15,36 +32,12 @@ struct GridScreen: View {
     var body: some View {
         VStack {
             LazyVGrid(columns: rule, spacing: 10) {
-                Group {
-                    Image("00020-854136227")
+                ForEach(pics) { pic in
+                    Image(pic.name)
                         .resizable()
                         .scaledToFit()
-                    Image("00021-854136228")
-                        .resizable()
-                        .scaledToFit()
-                    Image("00022-854136229")
-                        .resizable()
-                        .scaledToFit()
-                    Image("00020-2664957101")
-                        .resizable()
-                        .scaledToFit()
-                    Image("00021-2664957102")
-                        .resizable()
-                        .scaledToFit()
-                    Image("00022-2664957103")
-                        .resizable()
-                        .scaledToFit()
-                    Image("00027-1797116482")
-                        .resizable()
-                        .scaledToFit()
-                    Image("00028-1797116483")
-                        .resizable()
-                        .scaledToFit()
-                    Image("00029-1797116484 1")
-                        .resizable()
-                        .scaledToFit()
+                        .cornerRadius(5)
                 }
-                .cornerRadius(5)
             }
             .padding()
             
