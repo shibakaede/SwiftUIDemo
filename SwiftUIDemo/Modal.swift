@@ -28,7 +28,7 @@ struct Modal: View {
                 }
                 .cardStyle()
                 .sheet(isPresented: $modalIsPresented) {
-                    ThirdView()
+                    LayoutScreen()
                 }
                 
                 //MARK: Modal Code Button

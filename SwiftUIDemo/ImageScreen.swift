@@ -1,5 +1,5 @@
 //
-//  SecondView.swift
+//  ImageScreen.swift
 //  SwiftUIDemo
 //
 //  Created by Alan Chou on 2023/8/12.
@@ -7,7 +7,7 @@
 
 import SwiftUI
 
-struct SecondView: View {
+struct ImageScreen: View {
     @State private var imageIsPresented = false
     
     var body: some View {
@@ -51,6 +51,6 @@ struct SecondView: View {
 
 struct SecondView_Previews: PreviewProvider {
     static var previews: some View {
-        SecondView()
+        ImageScreen()
     }
 }

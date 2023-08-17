@@ -10,8 +10,8 @@ import SwiftUI
 struct Alert: View {
     @State private var alertIsPresented = false
     
-    @State var showAlert = false
-    @State var normalAlert = false
+    @State private var showAlert = false
+    @State private var normalAlert = false
     
     var body: some View {
         VStack {

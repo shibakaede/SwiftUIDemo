@@ -1,5 +1,5 @@
 //
-//  FirstView.swift
+//  TextScreen.swift
 //  SwiftUIDemo
 //
 //  Created by Alan Chou on 2023/8/12.
@@ -7,7 +7,7 @@
 
 import SwiftUI
 
-struct FirstView: View {
+struct TextScreen: View {
     @State var input = ""
     
     @State var password = ""
@@ -24,10 +24,6 @@ struct FirstView: View {
     var body: some View {
         ScrollView {
             VStack {
-                Text("各种文字视图")
-                    .font(.title2)
-                    .fontWeight(.bold)
-                
                 HStack {
                     VStack(alignment: .leading, spacing: 15) {
                         //MARK: Text
@@ -234,6 +230,6 @@ struct FirstView: View {
 
 struct FirstView_Previews: PreviewProvider {
     static var previews: some View {
-        FirstView()
+        TextScreen()
     }
 }

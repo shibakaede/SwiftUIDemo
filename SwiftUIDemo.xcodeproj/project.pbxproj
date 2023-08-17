@@ -8,41 +8,41 @@
 
 /* Begin PBXBuildFile section */
 		EA1D75632A88C72400BF8A38 /* Function.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA1D75622A88C72400BF8A38 /* Function.swift */; };
-		EA1D75652A88EFF700BF8A38 /* SixthView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA1D75642A88EFF700BF8A38 /* SixthView.swift */; };
+		EA1D75652A88EFF700BF8A38 /* TabScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA1D75642A88EFF700BF8A38 /* TabScreen.swift */; };
 		EA5973282A8B32D200FE999A /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA5973272A8B32D200FE999A /* HomeView.swift */; };
-		EACF2D3D2A888D3D00ABF2D0 /* fifthView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EACF2D3C2A888D3D00ABF2D0 /* fifthView.swift */; };
+		EACF2D3D2A888D3D00ABF2D0 /* ControlScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = EACF2D3C2A888D3D00ABF2D0 /* ControlScreen.swift */; };
 		EAE396BC2A8764B200E23A28 /* SwiftUIDemoApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = EAE396BB2A8764B200E23A28 /* SwiftUIDemoApp.swift */; };
 		EAE396C02A8764B200E23A28 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EAE396BF2A8764B200E23A28 /* Assets.xcassets */; };
 		EAE396C32A8764B200E23A28 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EAE396C22A8764B200E23A28 /* Preview Assets.xcassets */; };
-		EAE396CA2A8775BE00E23A28 /* FirstView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EAE396C92A8775BE00E23A28 /* FirstView.swift */; };
-		EAE396CC2A87795800E23A28 /* SecondView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EAE396CB2A87795800E23A28 /* SecondView.swift */; };
-		EAE396CE2A8779AE00E23A28 /* ThirdView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EAE396CD2A8779AE00E23A28 /* ThirdView.swift */; };
-		EAE396D02A8779F100E23A28 /* ForthView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EAE396CF2A8779F100E23A28 /* ForthView.swift */; };
-		EAEE3EAB2A8B3CFC00FD685F /* MultiViews.swift in Sources */ = {isa = PBXBuildFile; fileRef = EAEE3EAA2A8B3CFC00FD685F /* MultiViews.swift */; };
+		EAE396CA2A8775BE00E23A28 /* TextScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = EAE396C92A8775BE00E23A28 /* TextScreen.swift */; };
+		EAE396CC2A87795800E23A28 /* ImageScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = EAE396CB2A87795800E23A28 /* ImageScreen.swift */; };
+		EAE396CE2A8779AE00E23A28 /* LayoutScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = EAE396CD2A8779AE00E23A28 /* LayoutScreen.swift */; };
+		EAE396D02A8779F100E23A28 /* ShapeScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = EAE396CF2A8779F100E23A28 /* ShapeScreen.swift */; };
 		EAEE3EAF2A8B3EF700FD685F /* Scroll.swift in Sources */ = {isa = PBXBuildFile; fileRef = EAEE3EAE2A8B3EF700FD685F /* Scroll.swift */; };
 		EAEE3EB12A8B5ECC00FD685F /* Navigation.swift in Sources */ = {isa = PBXBuildFile; fileRef = EAEE3EB02A8B5ECC00FD685F /* Navigation.swift */; };
 		EAEE3EB32A8B6D2300FD685F /* Modal.swift in Sources */ = {isa = PBXBuildFile; fileRef = EAEE3EB22A8B6D2300FD685F /* Modal.swift */; };
 		EAEE3EB52A8B7C3300FD685F /* Alert.swift in Sources */ = {isa = PBXBuildFile; fileRef = EAEE3EB42A8B7C3300FD685F /* Alert.swift */; };
+		EAF3C33F2A8DFA6900D78F7C /* NormalViews.swift in Sources */ = {isa = PBXBuildFile; fileRef = EAF3C33E2A8DFA6900D78F7C /* NormalViews.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		EA1D75622A88C72400BF8A38 /* Function.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Function.swift; sourceTree = "<group>"; };
-		EA1D75642A88EFF700BF8A38 /* SixthView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SixthView.swift; sourceTree = "<group>"; };
+		EA1D75642A88EFF700BF8A38 /* TabScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabScreen.swift; sourceTree = "<group>"; };
 		EA5973272A8B32D200FE999A /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
-		EACF2D3C2A888D3D00ABF2D0 /* fifthView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = fifthView.swift; sourceTree = "<group>"; };
+		EACF2D3C2A888D3D00ABF2D0 /* ControlScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ControlScreen.swift; sourceTree = "<group>"; };
 		EAE396B82A8764B200E23A28 /* SwiftUIDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SwiftUIDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		EAE396BB2A8764B200E23A28 /* SwiftUIDemoApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUIDemoApp.swift; sourceTree = "<group>"; };
 		EAE396BF2A8764B200E23A28 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		EAE396C22A8764B200E23A28 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
-		EAE396C92A8775BE00E23A28 /* FirstView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstView.swift; sourceTree = "<group>"; };
-		EAE396CB2A87795800E23A28 /* SecondView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondView.swift; sourceTree = "<group>"; };
-		EAE396CD2A8779AE00E23A28 /* ThirdView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ThirdView.swift; sourceTree = "<group>"; };
-		EAE396CF2A8779F100E23A28 /* ForthView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ForthView.swift; sourceTree = "<group>"; };
-		EAEE3EAA2A8B3CFC00FD685F /* MultiViews.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MultiViews.swift; sourceTree = "<group>"; };
+		EAE396C92A8775BE00E23A28 /* TextScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextScreen.swift; sourceTree = "<group>"; };
+		EAE396CB2A87795800E23A28 /* ImageScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageScreen.swift; sourceTree = "<group>"; };
+		EAE396CD2A8779AE00E23A28 /* LayoutScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LayoutScreen.swift; sourceTree = "<group>"; };
+		EAE396CF2A8779F100E23A28 /* ShapeScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShapeScreen.swift; sourceTree = "<group>"; };
 		EAEE3EAE2A8B3EF700FD685F /* Scroll.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Scroll.swift; sourceTree = "<group>"; };
 		EAEE3EB02A8B5ECC00FD685F /* Navigation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Navigation.swift; sourceTree = "<group>"; };
 		EAEE3EB22A8B6D2300FD685F /* Modal.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Modal.swift; sourceTree = "<group>"; };
 		EAEE3EB42A8B7C3300FD685F /* Alert.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Alert.swift; sourceTree = "<group>"; };
+		EAF3C33E2A8DFA6900D78F7C /* NormalViews.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NormalViews.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -77,13 +77,13 @@
 			children = (
 				EAE396BB2A8764B200E23A28 /* SwiftUIDemoApp.swift */,
 				EA5973272A8B32D200FE999A /* HomeView.swift */,
-				EAEE3EAA2A8B3CFC00FD685F /* MultiViews.swift */,
-				EAE396C92A8775BE00E23A28 /* FirstView.swift */,
-				EAE396CB2A87795800E23A28 /* SecondView.swift */,
-				EAE396CD2A8779AE00E23A28 /* ThirdView.swift */,
-				EAE396CF2A8779F100E23A28 /* ForthView.swift */,
-				EACF2D3C2A888D3D00ABF2D0 /* fifthView.swift */,
-				EA1D75642A88EFF700BF8A38 /* SixthView.swift */,
+				EAF3C33E2A8DFA6900D78F7C /* NormalViews.swift */,
+				EAE396C92A8775BE00E23A28 /* TextScreen.swift */,
+				EAE396CB2A87795800E23A28 /* ImageScreen.swift */,
+				EAE396CD2A8779AE00E23A28 /* LayoutScreen.swift */,
+				EAE396CF2A8779F100E23A28 /* ShapeScreen.swift */,
+				EACF2D3C2A888D3D00ABF2D0 /* ControlScreen.swift */,
+				EA1D75642A88EFF700BF8A38 /* TabScreen.swift */,
 				EA1D75622A88C72400BF8A38 /* Function.swift */,
 				EAEE3EAE2A8B3EF700FD685F /* Scroll.swift */,
 				EAEE3EB02A8B5ECC00FD685F /* Navigation.swift */,
@@ -173,17 +173,17 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				EAE396CE2A8779AE00E23A28 /* ThirdView.swift in Sources */,
-				EA1D75652A88EFF700BF8A38 /* SixthView.swift in Sources */,
-				EAE396D02A8779F100E23A28 /* ForthView.swift in Sources */,
+				EAE396CE2A8779AE00E23A28 /* LayoutScreen.swift in Sources */,
+				EA1D75652A88EFF700BF8A38 /* TabScreen.swift in Sources */,
+				EAE396D02A8779F100E23A28 /* ShapeScreen.swift in Sources */,
 				EAEE3EB12A8B5ECC00FD685F /* Navigation.swift in Sources */,
-				EAE396CA2A8775BE00E23A28 /* FirstView.swift in Sources */,
+				EAE396CA2A8775BE00E23A28 /* TextScreen.swift in Sources */,
 				EAEE3EAF2A8B3EF700FD685F /* Scroll.swift in Sources */,
 				EAEE3EB52A8B7C3300FD685F /* Alert.swift in Sources */,
-				EAEE3EAB2A8B3CFC00FD685F /* MultiViews.swift in Sources */,
-				EAE396CC2A87795800E23A28 /* SecondView.swift in Sources */,
+				EAE396CC2A87795800E23A28 /* ImageScreen.swift in Sources */,
 				EAE396BC2A8764B200E23A28 /* SwiftUIDemoApp.swift in Sources */,
-				EACF2D3D2A888D3D00ABF2D0 /* fifthView.swift in Sources */,
+				EAF3C33F2A8DFA6900D78F7C /* NormalViews.swift in Sources */,
+				EACF2D3D2A888D3D00ABF2D0 /* ControlScreen.swift in Sources */,
 				EA5973282A8B32D200FE999A /* HomeView.swift in Sources */,
 				EA1D75632A88C72400BF8A38 /* Function.swift in Sources */,
 				EAEE3EB32A8B6D2300FD685F /* Modal.swift in Sources */,
@@ -313,7 +313,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = a97be18;
+				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"SwiftUIDemo/Preview Content\"";
 				DEVELOPMENT_TEAM = DWCVC3AL79;
 				ENABLE_PREVIEWS = YES;
@@ -321,15 +321,17 @@
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				MARKETING_VERSION = 1.1;
+				MARKETING_VERSION = 1.2a;
 				PRODUCT_BUNDLE_IDENTIFIER = pub.beautylife.SwiftUIDemo;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -342,7 +344,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = a97be18;
+				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"SwiftUIDemo/Preview Content\"";
 				DEVELOPMENT_TEAM = DWCVC3AL79;
 				ENABLE_PREVIEWS = YES;
@@ -350,15 +352,17 @@
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				MARKETING_VERSION = 1.1;
+				MARKETING_VERSION = 1.2a;
 				PRODUCT_BUNDLE_IDENTIFIER = pub.beautylife.SwiftUIDemo;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";

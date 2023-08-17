@@ -1,5 +1,5 @@
 //
-//  ThirdView.swift
+//  LayoutScreen.swift
 //  SwiftUIDemo
 //
 //  Created by Alan Chou on 2023/8/12.
@@ -7,17 +7,10 @@
 
 import SwiftUI
 
-struct ThirdView: View {
+struct LayoutScreen: View {
     var body: some View {
         ScrollView {
             VStack {
-                Text("各种View视图")
-                    .font(.title2)
-                    .fontWeight(.bold)
-                
-                Divider().padding()
-                
-                Group {
                     VStack {
                         RoundedRectangle(cornerRadius: 25, style: .continuous)
                         RoundedRectangle(cornerRadius: 25, style: .continuous)
@@ -26,16 +19,15 @@ struct ThirdView: View {
                     .foregroundColor(.yellow)
                     .frame(width: 100, height: 200)
                     .padding()
-                    .padding(.bottom)
-                    .background(Color.white)
-                    .cornerRadius(25)
-                    .shadow(radius: 10)
+                    .background(Color("DarkMode"))
+                    .cornerRadius(15)
+                    .shadow(radius: 5)
+                    .padding(.horizontal)
                     
                     Text("VStack")
                         .font(.headline)
-                }
+                        .padding(.bottom)
                 
-                Group {
                     HStack {
                         RoundedRectangle(cornerRadius: 25, style: .continuous)
                         RoundedRectangle(cornerRadius: 25, style: .continuous)
@@ -44,16 +36,15 @@ struct ThirdView: View {
                     .foregroundColor(.blue)
                     .frame(width: 200, height: 100)
                     .padding()
-                    .padding(.bottom)
-                    .background(Color.white)
-                    .cornerRadius(25)
-                    .shadow(radius: 10)
+                    .background(Color("DarkMode"))
+                    .cornerRadius(15)
+                    .shadow(radius: 5)
+                    .padding(.horizontal)
                     
                     Text("HStack")
                         .font(.headline)
-                }
+                        .padding(.bottom)
                 
-                Group {
                     ZStack {
                         RoundedRectangle(cornerRadius: 25, style: .continuous)
                             .offset(CGPoint(x: -5, y: -3))
@@ -65,13 +56,13 @@ struct ThirdView: View {
                     .frame(width: 200, height: 100)
                     .padding()
                     .padding(.bottom)
-                    .background(Color.white)
-                    .cornerRadius(25)
-                    .shadow(radius: 10)
+                    .background(Color("DarkMode"))
+                    .cornerRadius(15)
+                    .shadow(radius: 5)
+                    .padding(.horizontal)
                     
                     Text("ZStack")
                         .font(.headline)
-                }
             }
         }
     }
@@ -79,6 +70,6 @@ struct ThirdView: View {
 
 struct ThirdView_Previews: PreviewProvider {
     static var previews: some View {
-        ThirdView()
+        LayoutScreen()
     }
 }

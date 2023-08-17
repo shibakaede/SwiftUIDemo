@@ -10,7 +10,12 @@ import SwiftUI
 struct HomeView: View {
     var body: some View {
         TabView {
-            MultiViews()
+            NormalViews()
+                .tabItem {
+                    Image(systemName: "text.alignleft")
+                    Text("常用视图")
+                }
+            TabScreen()
                 .tabItem {
                     Image(systemName: "book")
                     Text("TabView")
@@ -34,6 +39,11 @@ struct HomeView: View {
                 .tabItem {
                     Image(systemName: "exclamationmark.triangle")
                     Text("Alert")
+                }
+            Text("List")
+                .tabItem {
+                    Image(systemName: "list.clipboard")
+                    Text("List")
                 }
         }
     }
