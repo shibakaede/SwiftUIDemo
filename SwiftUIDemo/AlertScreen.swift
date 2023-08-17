@@ -1,5 +1,5 @@
 //
-//  Alert.swift
+//  AlertScreen.swift
 //  SwiftUIDemo
 //
 //  Created by Alan Chou on 2023/8/15.
@@ -7,7 +7,7 @@
 
 import SwiftUI
 
-struct Alert: View {
+struct AlertScreen: View {
     @State private var alertIsPresented = false
     
     @State private var showAlert = false
@@ -57,6 +57,6 @@ struct Alert: View {
 
 struct Alert_Previews: PreviewProvider {
     static var previews: some View {
-        Alert()
+        AlertScreen()
     }
 }

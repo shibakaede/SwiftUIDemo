@@ -118,7 +118,7 @@ struct ControlScreen: View {
                         .font(.headline)
                     
                     Picker("Picker", selection: $pickerValue) {
-                        ForEach(0..<pickerOptions.count) { index in
+                        ForEach(0..<3) { index in
                             Text(pickerOptions[index]).tag(index)
                         }
                     }.pickerStyle(SegmentedPickerStyle())

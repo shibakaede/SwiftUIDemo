@@ -35,12 +35,12 @@ struct HomeView: View {
                     Image(systemName: "arrow.up.to.line.compact")
                     Text("Modal")
                 }
-            Alert()
+            AlertScreen()
                 .tabItem {
                     Image(systemName: "exclamationmark.triangle")
                     Text("Alert")
                 }
-            Text("List")
+            ListScreen()
                 .tabItem {
                     Image(systemName: "list.clipboard")
                     Text("List")
