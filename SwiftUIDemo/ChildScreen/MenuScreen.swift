@@ -12,12 +12,12 @@ struct MenuScreen: View {
     var body: some View {
         VStack {
             Menu("一级菜单") {
-                Menu("二级菜单") {
-                    Button("按钮4") { }
-                    Button("按钮3") { }
-                }
-                Button("按钮2") { }
                 Button("按钮1") { }
+                Button("按钮2") { }
+                Menu("二级菜单") {
+                    Button("按钮3") { }
+                    Button("按钮4") { }
+                }
             }
             .frame(width: 200, height: 88)
             .padding()

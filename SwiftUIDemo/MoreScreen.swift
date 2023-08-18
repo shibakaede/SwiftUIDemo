@@ -11,67 +11,83 @@ struct MoreScreen: View {
     var body: some View {
         NavigationStack {
             List {
-                NavigationLink {
-                    Modal()
-                } label: {
-                    Image(systemName: "arrow.up.to.line.compact")
-                    Text("Modal")
+                Section {
+                    NavigationLink {
+                        Modal()
+                    } label: {
+                        Image(systemName: "arrow.up.to.line.compact")
+                        Text("Modal")
+                    }
+                    NavigationLink {
+                        AlertScreen()
+                    } label: {
+                        Image(systemName: "exclamationmark.triangle")
+                            .foregroundStyle(.red, .black)
+                            .symbolRenderingMode(.palette)
+                        Text("Alert")
+                    }
+                    NavigationLink {
+                        ListScreen()
+                    } label: {
+                        Image(systemName: "list.clipboard")
+                        Text("List")
+                    }
+                    NavigationLink {
+                        GridScreen()
+                    } label: {
+                        Image(systemName: "square.grid.2x2")
+                        Text("Grid")
+                    }
+                    NavigationLink {
+                        ForEachScreen()
+                    } label: {
+                        Image(systemName: "arrow.triangle.capsulepath")
+                        Text("ForEach & GroupBox")
+                    }
+                    NavigationLink {
+                        FormScreen()
+                    } label: {
+                        Image(systemName: "list.bullet")
+                        Text("Form")
+                    }
+                    NavigationLink {
+                        WatchGaugeScreen()
+                    } label: {
+                        Image(systemName: "applewatch")
+                        Text("Gauge")
+                    }
+                    NavigationLink {
+                        NavigationSplitScreen()
+                    } label: {
+                        Image(systemName: "ipad.landscape")
+                        Text("NavigationSplitView")
+                    }
+                    NavigationLink {
+                        ColorPickerScreen()
+                    } label: {
+                        Image(systemName: "eyedropper")
+                        Text("ColorPicker")
+                    }
+                    NavigationLink {
+                        MenuScreen()
+                    } label: {
+                        Image(systemName: "filemenu.and.selection")
+                        Text("Menu")
+                    }
                 }
-                NavigationLink {
-                    AlertScreen()
-                } label: {
-                    Image(systemName: "exclamationmark.triangle")
-                        .foregroundStyle(.red, .black)
-                        .symbolRenderingMode(.palette)
-                    Text("Alert")
-                }
-                NavigationLink {
-                    ListScreen()
-                } label: {
-                    Image(systemName: "list.clipboard")
-                    Text("List")
-                }
-                NavigationLink {
-                    GridScreen()
-                } label: {
-                    Image(systemName: "square.grid.2x2")
-                    Text("Grid")
-                }
-                NavigationLink {
-                    ForEachScreen()
-                } label: {
-                    Image(systemName: "arrow.triangle.capsulepath")
-                    Text("ForEach & GroupBox")
-                }
-                NavigationLink {
-                    FormScreen()
-                } label: {
-                    Image(systemName: "list.bullet")
-                    Text("Form")
-                }
-                NavigationLink {
-                    WatchGaugeScreen()
-                } label: {
-                    Image(systemName: "applewatch")
-                    Text("Gauge")
-                }
-                NavigationLink {
-                    NavigationSplitScreen()
-                } label: {
-                    Image(systemName: "ipad.landscape")
-                    Text("NavigationSplitView")
-                }
-                NavigationLink {
-                    ColorPickerScreen()
-                } label: {
-                    Image(systemName: "eyedropper")
-                    Text("ColorPicker")
-                }
-                NavigationLink {
-                    MenuScreen()
-                } label: {
-                    Image(systemName: "filemenu.and.selection")
-                    Text("Menu")
+                Section {
+                    HStack {
+                        Text("Designer & Code")
+                        Spacer()
+                        Text("Alan Chou")
+                    }.foregroundColor(.gray)
+                    HStack {
+                        Text("Version")
+                        Spacer()
+                        Text("1.33")
+                    }.foregroundColor(.gray)
+                } header: {
+                    Text("About This APP")
                 }
             }
             .navigationTitle("More")
