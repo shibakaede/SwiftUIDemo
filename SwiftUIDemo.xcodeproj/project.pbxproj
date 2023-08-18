@@ -9,6 +9,7 @@
 /* Begin PBXBuildFile section */
 		EA1D75632A88C72400BF8A38 /* Function.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA1D75622A88C72400BF8A38 /* Function.swift */; };
 		EA1D75652A88EFF700BF8A38 /* TabScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA1D75642A88EFF700BF8A38 /* TabScreen.swift */; };
+		EA2720E02A8F709000BDF544 /* ColorPickerScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA2720DF2A8F709000BDF544 /* ColorPickerScreen.swift */; };
 		EA5973282A8B32D200FE999A /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA5973272A8B32D200FE999A /* HomeView.swift */; };
 		EA675B592A8F2E1300BEAF3E /* MoreScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA675B582A8F2E1300BEAF3E /* MoreScreen.swift */; };
 		EA675B6B2A8F535700BEAF3E /* WatchViewsApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA675B6A2A8F535700BEAF3E /* WatchViewsApp.swift */; };
@@ -40,6 +41,7 @@
 /* Begin PBXFileReference section */
 		EA1D75622A88C72400BF8A38 /* Function.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Function.swift; sourceTree = "<group>"; };
 		EA1D75642A88EFF700BF8A38 /* TabScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabScreen.swift; sourceTree = "<group>"; };
+		EA2720DF2A8F709000BDF544 /* ColorPickerScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColorPickerScreen.swift; sourceTree = "<group>"; };
 		EA5973272A8B32D200FE999A /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
 		EA675B582A8F2E1300BEAF3E /* MoreScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MoreScreen.swift; sourceTree = "<group>"; };
 		EA675B652A8F535700BEAF3E /* WatchViews Watch App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "WatchViews Watch App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -124,6 +126,7 @@
 				EAF3C34A2A8E3F3A00D78F7C /* FormScreen.swift */,
 				EA675B7C2A8F58CA00BEAF3E /* WatchGaugeScreen.swift */,
 				EA675B802A8F5F6500BEAF3E /* NavigationSplitScreen.swift */,
+				EA2720DF2A8F709000BDF544 /* ColorPickerScreen.swift */,
 			);
 			path = ChildScreen;
 			sourceTree = "<group>";
@@ -309,6 +312,7 @@
 				EA1D75632A88C72400BF8A38 /* Function.swift in Sources */,
 				EA675B812A8F5F6500BEAF3E /* NavigationSplitScreen.swift in Sources */,
 				EAEE3EB32A8B6D2300FD685F /* Modal.swift in Sources */,
+				EA2720E02A8F709000BDF544 /* ColorPickerScreen.swift in Sources */,
 				EA675B592A8F2E1300BEAF3E /* MoreScreen.swift in Sources */,
 				EAF3C3492A8E3BA300D78F7C /* GroupBoxScreen.swift in Sources */,
 			);
@@ -510,7 +514,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				MARKETING_VERSION = 1.2a;
+				MARKETING_VERSION = 1.3;
 				PRODUCT_BUNDLE_IDENTIFIER = pub.beautylife.SwiftUIDemo;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
@@ -541,7 +545,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				MARKETING_VERSION = 1.2a;
+				MARKETING_VERSION = 1.3;
 				PRODUCT_BUNDLE_IDENTIFIER = pub.beautylife.SwiftUIDemo;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";

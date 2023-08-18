@@ -61,6 +61,12 @@ struct MoreScreen: View {
                     Image(systemName: "ipad.landscape")
                     Text("NavigationSplitView")
                 }
+                NavigationLink {
+                    ColorPickerScreen()
+                } label: {
+                    Image(systemName: "eyedropper")
+                    Text("ColorPicker")
+                }
             }
             .navigationTitle("More")
         }
