@@ -55,6 +55,12 @@ struct MoreScreen: View {
                     Image(systemName: "applewatch")
                     Text("Gauge")
                 }
+                NavigationLink {
+                    NavigationSplitScreen()
+                } label: {
+                    Image(systemName: "ipad.landscape")
+                    Text("NavigationSplitView")
+                }
             }
             .navigationTitle("More")
         }
