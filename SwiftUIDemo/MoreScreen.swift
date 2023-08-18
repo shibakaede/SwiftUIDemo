@@ -49,6 +49,12 @@ struct MoreScreen: View {
                     Image(systemName: "list.bullet")
                     Text("Form")
                 }
+                NavigationLink {
+                    WatchGaugeScreen()
+                } label: {
+                    Image(systemName: "applewatch")
+                    Text("Gauge")
+                }
             }
             .navigationTitle("More")
         }
