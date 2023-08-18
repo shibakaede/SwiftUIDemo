@@ -67,6 +67,12 @@ struct MoreScreen: View {
                     Image(systemName: "eyedropper")
                     Text("ColorPicker")
                 }
+                NavigationLink {
+                    MenuScreen()
+                } label: {
+                    Image(systemName: "filemenu.and.selection")
+                    Text("Menu")
+                }
             }
             .navigationTitle("More")
         }

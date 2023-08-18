@@ -10,6 +10,7 @@
 		EA1D75632A88C72400BF8A38 /* Function.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA1D75622A88C72400BF8A38 /* Function.swift */; };
 		EA1D75652A88EFF700BF8A38 /* TabScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA1D75642A88EFF700BF8A38 /* TabScreen.swift */; };
 		EA2720E02A8F709000BDF544 /* ColorPickerScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA2720DF2A8F709000BDF544 /* ColorPickerScreen.swift */; };
+		EA2720E22A8F778900BDF544 /* MenuScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA2720E12A8F778900BDF544 /* MenuScreen.swift */; };
 		EA5973282A8B32D200FE999A /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA5973272A8B32D200FE999A /* HomeView.swift */; };
 		EA675B592A8F2E1300BEAF3E /* MoreScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA675B582A8F2E1300BEAF3E /* MoreScreen.swift */; };
 		EA675B6B2A8F535700BEAF3E /* WatchViewsApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA675B6A2A8F535700BEAF3E /* WatchViewsApp.swift */; };
@@ -42,6 +43,7 @@
 		EA1D75622A88C72400BF8A38 /* Function.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Function.swift; sourceTree = "<group>"; };
 		EA1D75642A88EFF700BF8A38 /* TabScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabScreen.swift; sourceTree = "<group>"; };
 		EA2720DF2A8F709000BDF544 /* ColorPickerScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColorPickerScreen.swift; sourceTree = "<group>"; };
+		EA2720E12A8F778900BDF544 /* MenuScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuScreen.swift; sourceTree = "<group>"; };
 		EA5973272A8B32D200FE999A /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
 		EA675B582A8F2E1300BEAF3E /* MoreScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MoreScreen.swift; sourceTree = "<group>"; };
 		EA675B652A8F535700BEAF3E /* WatchViews Watch App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "WatchViews Watch App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -127,6 +129,7 @@
 				EA675B7C2A8F58CA00BEAF3E /* WatchGaugeScreen.swift */,
 				EA675B802A8F5F6500BEAF3E /* NavigationSplitScreen.swift */,
 				EA2720DF2A8F709000BDF544 /* ColorPickerScreen.swift */,
+				EA2720E12A8F778900BDF544 /* MenuScreen.swift */,
 			);
 			path = ChildScreen;
 			sourceTree = "<group>";
@@ -292,6 +295,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EA2720E22A8F778900BDF544 /* MenuScreen.swift in Sources */,
 				EAF3C34B2A8E3F3A00D78F7C /* FormScreen.swift in Sources */,
 				EAE396CE2A8779AE00E23A28 /* LayoutScreen.swift in Sources */,
 				EAF3C3432A8E153A00D78F7C /* GridScreen.swift in Sources */,
