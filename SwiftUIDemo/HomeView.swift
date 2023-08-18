@@ -30,35 +30,10 @@ struct HomeView: View {
                     Image(systemName: "globe")
                     Text("NavigationView")
                 }
-            Modal()
+           MoreScreen()
                 .tabItem {
-                    Image(systemName: "arrow.up.to.line.compact")
-                    Text("Modal")
-                }
-            AlertScreen()
-                .tabItem {
-                    Image(systemName: "exclamationmark.triangle")
-                    Text("Alert")
-                }
-            ListScreen()
-                .tabItem {
-                    Image(systemName: "list.clipboard")
-                    Text("List")
-                }
-            GridScreen()
-                .tabItem {
-                    Image(systemName: "square.grid.2x2")
-                    Text("Grid")
-                }
-            ForEachScreen()
-                .tabItem {
-                    Image(systemName: "arrow.triangle.capsulepath")
-                    Text("ForEach 和 GroupBox")
-                }
-            FormScreen()
-                .tabItem {
-                    Image(systemName: "list.bullet")
-                    Text("Form")
+                    Image(systemName: "ellipsis")
+                    Text("More")
                 }
         }
     }

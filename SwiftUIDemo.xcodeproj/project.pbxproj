@@ -10,6 +10,7 @@
 		EA1D75632A88C72400BF8A38 /* Function.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA1D75622A88C72400BF8A38 /* Function.swift */; };
 		EA1D75652A88EFF700BF8A38 /* TabScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA1D75642A88EFF700BF8A38 /* TabScreen.swift */; };
 		EA5973282A8B32D200FE999A /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA5973272A8B32D200FE999A /* HomeView.swift */; };
+		EA675B592A8F2E1300BEAF3E /* MoreScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA675B582A8F2E1300BEAF3E /* MoreScreen.swift */; };
 		EACF2D3D2A888D3D00ABF2D0 /* ControlScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = EACF2D3C2A888D3D00ABF2D0 /* ControlScreen.swift */; };
 		EAE396BC2A8764B200E23A28 /* SwiftUIDemoApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = EAE396BB2A8764B200E23A28 /* SwiftUIDemoApp.swift */; };
 		EAE396C02A8764B200E23A28 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EAE396BF2A8764B200E23A28 /* Assets.xcassets */; };
@@ -34,6 +35,7 @@
 		EA1D75622A88C72400BF8A38 /* Function.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Function.swift; sourceTree = "<group>"; };
 		EA1D75642A88EFF700BF8A38 /* TabScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabScreen.swift; sourceTree = "<group>"; };
 		EA5973272A8B32D200FE999A /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
+		EA675B582A8F2E1300BEAF3E /* MoreScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MoreScreen.swift; sourceTree = "<group>"; };
 		EACF2D3C2A888D3D00ABF2D0 /* ControlScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ControlScreen.swift; sourceTree = "<group>"; };
 		EAE396B82A8764B200E23A28 /* SwiftUIDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SwiftUIDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		EAE396BB2A8764B200E23A28 /* SwiftUIDemoApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUIDemoApp.swift; sourceTree = "<group>"; };
@@ -97,6 +99,7 @@
 				EA1D75622A88C72400BF8A38 /* Function.swift */,
 				EAEE3EAE2A8B3EF700FD685F /* Scroll.swift */,
 				EAEE3EB02A8B5ECC00FD685F /* Navigation.swift */,
+				EA675B582A8F2E1300BEAF3E /* MoreScreen.swift */,
 				EAEE3EB22A8B6D2300FD685F /* Modal.swift */,
 				EAEE3EB42A8B7C3300FD685F /* AlertScreen.swift */,
 				EAF3C3402A8E0AF300D78F7C /* ListScreen.swift */,
@@ -206,6 +209,7 @@
 				EA5973282A8B32D200FE999A /* HomeView.swift in Sources */,
 				EA1D75632A88C72400BF8A38 /* Function.swift in Sources */,
 				EAEE3EB32A8B6D2300FD685F /* Modal.swift in Sources */,
+				EA675B592A8F2E1300BEAF3E /* MoreScreen.swift in Sources */,
 				EAF3C3492A8E3BA300D78F7C /* GroupBoxScreen.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

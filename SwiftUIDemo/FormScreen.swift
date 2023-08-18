@@ -14,7 +14,7 @@ struct FormScreen: View {
     @State private var time = 0
     @State private var selecter = ["AM", "PM"]
     @State private var select = 0
-    @State private var formIsPresented = false
+    @State var formIsPresented = false
     var body: some View {
         NavigationStack {
             Form {
@@ -31,7 +31,7 @@ struct FormScreen: View {
                             Text(self.selecter[$0])
                         }
                     } label: {
-                        Text("间隔时间")
+                        Text("上/下午")
                     }
                     .pickerStyle(.menu)
                 } header: {

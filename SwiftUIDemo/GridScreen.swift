@@ -30,29 +30,31 @@ struct GridScreen: View {
     let rule = [GridItem(.adaptive(minimum: 120))]
     
     var body: some View {
-        VStack {
-            LazyVGrid(columns: rule, spacing: 10) {
-                ForEach(pics) { pic in
-                    Image(pic.name)
-                        .resizable()
-                        .scaledToFit()
-                        .cornerRadius(5)
+        ScrollView {
+            VStack {
+                LazyVGrid(columns: rule, spacing: 10) {
+                    ForEach(pics) { pic in
+                        Image(pic.name)
+                            .resizable()
+                            .scaledToFit()
+                            .cornerRadius(5)
+                    }
                 }
-            }
-            .padding()
-            
-            //MARK: Grid Code Button
-            Button("\(Image(systemName: "info.circle")) 显示代码", action: {
-                gridIsPresented = true
-            })
-            .font(.footnote)
-            .sheet(isPresented: $gridIsPresented) {
-                VStack {
-                    Image("grid")
-                        .resizable()
-                        .scaledToFit()
-                    Button("\(Image(systemName: "xmark.circle")) 关闭") {
-                        gridIsPresented.toggle()
+                .padding()
+                
+                //MARK: Grid Code Button
+                Button("\(Image(systemName: "info.circle")) 显示代码", action: {
+                    gridIsPresented = true
+                })
+                .font(.footnote)
+                .sheet(isPresented: $gridIsPresented) {
+                    VStack {
+                        Image("grid")
+                            .resizable()
+                            .scaledToFit()
+                        Button("\(Image(systemName: "xmark.circle")) 关闭") {
+                            gridIsPresented.toggle()
+                        }
                     }
                 }
             }
